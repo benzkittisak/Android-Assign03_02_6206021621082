@@ -1,3 +1,8 @@
+/**
+ * 6206021621082
+ * กิตติศักดิ์ ปานเหลือ
+ */
+
 package com.moochiking.assign03_02_6206021621082;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -42,7 +47,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View v) {
-        
+
         if(midScore.getText().toString().equals("")) {
             Toast.makeText(this, "ยังไม่ได้ป้อนคะแนนกลางภาค", Toast.LENGTH_SHORT).show();
             return;
